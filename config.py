@@ -9,4 +9,4 @@ class Config(object):
       CAPTION_POSITION = os.environ.get("CAPTION_POSITION", "bottom")
       ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "Ts_Bots")
       ADMIN_ID = int(os.environ.get("ADMIN_ID", 1801434814)) 
-      DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://cap:cap@cluster0.jxfgsd3.mongodb.net/?retryWrites=true&w=majority")
+      DB_URL = os.environ.get("DATABASE_URL", "postgres://njckswrw:vTb-KzYF46eQsV8xA34M-obf07m6ge2I@ziggy.db.elephantsql.com/njckswrw")
