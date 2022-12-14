@@ -41,8 +41,13 @@ async def editing(bot, message):
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 caption = file_caption + "\n \n" + "**__♻ᴊᴏɪɴ @Cinemahub182__**",
+                 caption = file_caption + "\n \n" + "**__♻ᴊᴏɪɴ @Cinemahub182__**", 
                  parse_mode = "markdown"
+                 reply_markup=InlineKeyboardMarkup(
+              [[
+              InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url="chubnew")
+              ]]
+                )
              )
           elif caption_position == "nil":
              await bot.edit_message_caption(
