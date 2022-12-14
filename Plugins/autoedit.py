@@ -42,7 +42,7 @@ async def editing(bot, message):
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
                  caption = file_caption + "\n \n" + "**__♻ᴊᴏɪɴ @Cinemahub182__**", 
-                 parse_mode = "markdown"
+                 parse_mode = "markdown",
                  reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url="chubnew")
