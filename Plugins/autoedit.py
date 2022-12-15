@@ -32,7 +32,8 @@ async def editing(bot, message):
       markup = InlineKeyboardMarkup(
           [
             [
-              InlineKeyboardButton('❤️‍🔥Gʀᴏᴜᴘ 1❤️‍🔥', url='https://t.me/Cinemahub180')
+              InlineKeyboardButton("❤️‍🔥Gʀᴏᴜᴘ 1❤️‍🔥", url="https://t.me/Cinemahub182"),
+              InlineKeyboardButton("❤️‍🔥Gʀᴏᴜᴘ 2❤️‍🔥", url="https://t.me/Cinemahub180")
             ]
           ]
       )
