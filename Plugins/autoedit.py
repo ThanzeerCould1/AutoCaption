@@ -29,14 +29,21 @@ async def editing(bot, message):
              file_caption = f"**{message.caption}**"                
           else:
              file_caption = ""           
-                                                 
+      markup = InlineKeyboardMarkup(
+          [
+            [
+              InlineKeyboardButton('smtng', url='https://t.me/')
+            ]
+          ]
+      )
       try:
           if caption_position == "top":
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
                  caption = caption_text + "\n" + file_caption,
-                 parse_mode = "markdown"
+                 parse_mode = "markdown",
+                 reply_markup=markup
              )
               #come
           elif caption_position == "bottom":
@@ -44,14 +51,16 @@ async def editing(bot, message):
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
                  caption = file_caption + "\n \n" + "**__♻ᴊᴏɪɴ @Cinemahub180__**",
-                 parse_mode = "markdown"
+                 parse_mode = "markdown",
+                 reply_markup=markup
                  )
           elif caption_position == "nil":
              await bot.edit_message_caption(
                  chat_id = message.chat.id,
                  message_id = message.message_id,
                  caption = caption_text, 
-                 parse_mode = "markdown"
+                 parse_mode = "markdown",
+                 reply_markup=markup
              ) 
       except:
           pass
