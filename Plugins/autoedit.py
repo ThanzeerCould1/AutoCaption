@@ -51,7 +51,7 @@ async def editing(bot, message):
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 caption = file_caption + "\n \n" + "**╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗ ♻️ 𝙅𝙊𝙄𝙉 :- @Cinemahub182\n♻️ 𝙅𝙊𝙄𝙉 :- @Cinemahub182\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝**",
+                 caption = file_caption + "\n \n" + "**╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n ♻️ 𝙅𝙊𝙄𝙉 :- @Cinemahub182\n ♻️ 𝙅𝙊𝙄𝙉 :- @Cinemahub182\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝**",
                  parse_mode = "markdown",
                  reply_markup=markup
                  )
