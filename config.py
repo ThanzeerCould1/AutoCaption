@@ -3,6 +3,8 @@ import os
 
 
 class Config(object):
+      SESSION = 'Media_search'
+      USER_SESSION = 'User_Bot'
       BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5685376427:AAEuI7_zEbY_1IQz6dOXE3yCwXdAYC0-cqA")
       API_ID = int(os.environ.get("APP_ID", 9303355))
       API_HASH = os.environ.get("API_HASH", "addd075f93980e9fc6817081ed682fd8")
