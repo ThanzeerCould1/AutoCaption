@@ -33,6 +33,7 @@ async def editing(bot, message):
           [
             [
               InlineKeyboardButton("❤️‍🔥 𝐌𝐇𝐃 𝐓𝐇𝐀𝐍𝐙𝐄𝐄𝐑 ❤️‍🔥", url="https://telegram.me/M4MHD")
+            ]
           ]
       )
       try:
