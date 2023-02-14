@@ -32,9 +32,7 @@ async def editing(bot, message):
       markup = InlineKeyboardMarkup(
           [
             [
-              InlineKeyboardButton("❤️‍🔥Gʀᴏᴜᴘ 1❤️‍🔥", url="https://t.me/Cinemahub182"),
-              InlineKeyboardButton("❤️‍🔥Gʀᴏᴜᴘ 2❤️‍🔥", url="https://t.me/Cinemahub180")
-            ]
+              InlineKeyboardButton("❤️‍🔥 𝐌𝐇𝐃 𝐓𝐇𝐀𝐍𝐙𝐄𝐄𝐑 ❤️‍🔥", url="https://telegram.me/M4MHD")
           ]
       )
       try:
@@ -51,7 +49,7 @@ async def editing(bot, message):
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 caption = file_caption + "\n" + "**╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n  ♻️ 𝙅𝙊𝙄𝙉 :- @chubmovieclub\n  ♻️ 𝙅𝙊𝙄𝙉 :- @chubmovieclub\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝**",
+                 caption = file_caption + "\n" + "",
                  parse_mode = "markdown",
                  reply_markup=markup
                  )
